@@ -1,4 +1,4 @@
-from nginx
-label project=demo
-workdir /app
-copy html/ /usr/share/nginx/html
+FROM nginx
+LABEL project=demo
+WORKDIR /app
+COPY html/ /usr/share/nginx/html
